@@ -19,4 +19,7 @@ pipeline {
       }
     }
   }
+  environment {
+    PROJECT = 'micro-node-douyin'
+  }
 }

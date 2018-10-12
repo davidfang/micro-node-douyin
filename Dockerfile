@@ -6,7 +6,7 @@ ADD package-lock.json /dy/package-lock.json
 
 ADD server/ /dy/server
 
-RUN cd /dy && npm install --registry=https://registry.npm.taobao.org
+RUN cd /dy && npm install
 
 WORKDIR /dy/server
 
